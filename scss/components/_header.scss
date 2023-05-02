@@ -1,0 +1,57 @@
+.logo-img {
+	background-image: url(../img/axiouscdos.jpg);
+	background-color: $background-color_2;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+	width: 100%;
+	display: flex;
+}
+
+
+.flex-nav {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	width: 100%;
+	nav {
+		ul {
+			display: flex;
+			justify-content: space-evenly;
+			gap: 4em;
+		}
+	}
+}
+
+.flex-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+}
+
+.nav {
+	color: $color_1;
+	background-color: $background-color_2;
+	width: 100%;
+	padding: 20px 15px;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	margin-bottom: 1em;
+	li {
+		list-style: none;
+		a {
+			text-decoration: none;
+			color: $color_1;
+			&:hover {
+				text-decoration: underline;
+				color: $color_2;
+			}
+		}
+	}
+	ul {
+		list-style: none;
+	}
+}

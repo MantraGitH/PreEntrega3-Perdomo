@@ -1,0 +1,23 @@
+$color_1: whitesmoke;
+$color_2: chocolate;
+$font-family_1: "Roboto";
+$background-color_1: whitesmoke;
+$background-color_2: rgb(31, 31, 31);
+
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap";
+
+@import "./base";
+
+@import "./components/btn";
+@import "./components/card";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/mqmobile";
+@import "./components/p";
+
+@import "./pages/carrito";
+@import "./pages/contacto";
+@import "./pages/index";
+@import "./pages/nosotros";
+
+

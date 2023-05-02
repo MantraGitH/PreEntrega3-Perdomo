@@ -1,0 +1,238 @@
+@media screen and (max-width: 480px) {
+	section {
+		article {
+			background-image: url(../img/ofertasynuevosdos.jpg);
+			background-size: cover;
+			width: 100%;
+			margin-bottom: 1em;
+			display: flex;
+			flex-direction: column;
+		}
+	}
+	.logo-img {
+		background-image: url(../img/axiouscdos.jpg);
+		background-color: $background-color_1;
+		background-repeat: no-repeat;
+		background-position: center;
+		align-items: center;
+		height: 400px;
+		width: 100%;
+		display: flex;
+	}
+	.section-busqueda {
+		font-weight: 700;
+		margin-top: 1em;
+	}
+	.nuevosimg {
+		display: flex;
+		width: 100%;
+	}
+	.articulos-container {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		justify-content: center;
+	}
+	.flex-contenedor {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	h3 {
+		text-align: center;
+		align-items: center;
+	}
+	.nuevos-ofertas {
+		color: $color_1;
+		background-color: $background-color_1;
+		width: 100vw;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		margin-top: 1em;
+		margin-bottom: 5px;
+		display: flex;
+		padding: 10px 0;
+	}
+	.mas-vendidos {
+		display: flex;
+		justify-content: center;
+		width: 100vw;
+		padding: 10px 0;
+		margin-bottom: 1em;
+	}
+	.flex-nav {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		width: 100%;
+		nav {
+			ul {
+				display: flex;
+				gap: 1em;
+				flex-direction: column;
+				flex-wrap: wrap;
+			}
+		}
+	}
+	.flex-div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100vw;
+	}
+	.nav {
+		color: $color_1;
+		background-color: $background-color_1;
+		width: 100vw;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		margin-bottom: 5px;
+		display: flex;
+		ul {
+			align-items: center;
+			list-style: none;
+			display: flex;
+		}
+		li {
+			list-style: none;
+			display: flex;
+			a {
+				text-decoration: none;
+				color: $color_1;
+				display: flex;
+				&:hover {
+					text-decoration: underline;
+					color: $color_2;
+					display: flex;
+				}
+			}
+		}
+	}
+	.card {
+		display: flex;
+		width: 400px;
+		flex-direction: column;
+		align-items: center;
+		gap: 5px;
+		justify-content: center;
+		margin-bottom: 1em;
+	}
+	.vendidos-imagen {
+		width: 350px;
+	}
+	.parrafo {
+		display: flex;
+		padding-inline: 1em;
+	}
+	.footer {
+		display: flex;
+		flex-direction: column;
+		color: $color_1;
+		background-color: $background-color_1;
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+		li {
+			display: flex;
+			list-style: none;
+			display: flex;
+			a {
+				text-decoration: none;
+				color: $color_1;
+				display: flex;
+				&:hover {
+					text-decoration: underline;
+					color: $color_2;
+					display: flex;
+				}
+			}
+		}
+	}
+	.foot-flex {
+		flex-direction: column;
+		margin-top: 2em;
+	}
+	.imagen-footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	a {
+		&:visited {
+			text-decoration: none;
+			text-decoration: none;
+			color: $color_1;
+			color: $color_1;
+			display: flex;
+			display: flex;
+		}
+	}
+	.pagos {
+		color: $color_1;
+		font-size: 25px;
+		background-color: $background-color_1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+	}
+	.pagos-img {
+		width: 95%;
+		display: flex;
+		margin-bottom: 1em;
+	}
+	.carrito-general {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.titulo-tabla-carrito {
+		padding: 0;
+		padding-left: 5px;
+	}
+	.tamaño-imagen-carrito {
+		width: 300px;
+	}
+	.carrito-añadidos {
+		td {
+			padding-inline: 6px;
+		}
+	}
+	.preguntas-nosotros {
+		display: flex;
+		margin-left: 2em;
+		margin-right: 2em;
+		list-style: none;
+		text-decoration: none;
+	}
+	.faq-pregunta {
+		display: flex;
+		margin-top: 1em;
+	}
+	.contactos {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.boton-enviar {
+		display: flex;
+		margin-left: 0;
+		font-size: 2em;
+		margin-left: 1.3em;
+	}
+	.boton {
+		padding: 5px 5px;
+		border-style: none;
+	}
+	.boton-busqueda {
+		padding: 5px 5px;
+		border-style: none;
+	}
+}

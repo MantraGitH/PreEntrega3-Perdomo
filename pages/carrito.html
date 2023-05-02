@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <title>Axio Urban Style | Estilo Ropa Urbana - Carrito</title>
+  </head>
+  <body>
+    <header>
+      <div class="flex-div">
+        <h1>Axio Urban Style</h1>
+        <div class="logo-img"></div>
+
+        <div class="flex-nav">
+          <nav class="nav">
+            <ul>
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="./catalogo.html">Catálogo</a></li>
+              <li><a href="./carrito.html">Carrito</a></li>
+              <li><a href="./nosotros.html">Nosotros</a></li>
+              <li><a href="./contacto.html">Contáctanos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <h2 class="carrito-label">Carrito de compras</h2>
+
+    <main>
+      <div class="carrito-general">
+        <div>
+          <img
+            src="../img/remeraarticmonkeysunisex.jpg"
+            alt="imagen"
+            class="tamaño-imagen-carrito"
+          />
+          <img
+            src="../img/buzoconverseunisex.jpg"
+            alt="imagen"
+            class="tamaño-imagen-carrito"
+          />
+        </div>
+        <div>
+          <table class="tabla-carrito">
+            <thead>
+              <tr class="titulo-tabla-carrito">
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Total</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody class="carrito-añadidos">
+              <tr>
+                <td>Remera Artic Monkeys</td>
+                <td>$1200</td>
+                <td>
+                  <button disabled>-</button>
+                  <input type="text" value="1" />
+                  <button>+</button>
+                </td>
+                <td>$1200</td>
+                <td>
+                  <button class="boton"><span>Eliminar</span></button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Buzo Converse</td>
+                <td>$2600</td>
+                <td>
+                  <button disabled>-</button>
+                  <input type="text" value="1" />
+                  <button>+</button>
+                </td>
+                <td>$2600</td>
+                <td>
+                  <button class="boton"><span>Eliminar</span></button>
+                </td>
+              </tr>
+            </tbody>
+            <tfoot class="precio-total-tabla">
+              <tr>
+                <td colspan="3">Total:</td>
+                <td>$3800</td>
+                <td></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+
+      <button class="boton boton-carrito"><span>Proceder a pagar</span></button>
+      <button class="boton boton-carrito">
+        <a href="../pages/catalogo.html"><span>Volver a la Tienda</span></a>
+      </button>
+    </main>
+
+    <footer class="foot-flex">
+      <nav class="footer">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../pages/catalogo.html">Catálogo</a></li>
+        <li><a href="../pages/carrito.html">Carrito</a></li>
+        <li><a href="../pages/nosotros.html">Nosotros</a></li>
+        <li><a href="../pages/contacto.html">Contáctanos</a></li>
+      </nav>
+
+      <div class="pagos">
+        <h3>Métodos de pagos</h3>
+        <img class="pagos-img" src="../img/pagos.jpg" alt="pagos" />
+      </div>
+    </footer>
+  </body>
+</html>
